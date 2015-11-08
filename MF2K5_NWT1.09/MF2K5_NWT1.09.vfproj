@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{A241BC39-8FCE-4166-BEAC-E24269F82C9F}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/fpp /Qopenmp" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\Program Files\HDF_Group\HDF5\1.8.15\include" AddDependentOutputs="false" PreprocessorDefinitions="RIP_ET;PrintOP;HDFDATA" FixedFormLineLength="fixedLength80" F2003Semantics="true" DebugParameter="debugParameterAll" BuildDependencies="true" Traceback="true" RuntimeChecks="rtChecksNone" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files\HDF_Group\HDF5\1.8.15\lib" GenerateDebugInformation="true" SubSystem="subSystemConsole" AdditionalDependencies="szip.lib zlib.lib hdf5.lib hdf5_fortran.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-fpp -INCREMENTAL:NO" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\Program Files\HDF_Group\HDF5\1.8.15\include" AddDependentOutputs="false" PreprocessorDefinitions="RIP_ET;PrintOP;HDFDATA" EnableRecursion="true" FixedFormLineLength="fixedLength80" F2003Semantics="true" OutputCarriageControl="outputCCFortran" RuntimeChecks="rtChecksNone"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="C:\Program Files\HDF_Group\HDF5\1.8.15\lib" GenerateManifest="false" GenerateDebugInformation="true" SubSystem="subSystemConsole" AdditionalDependencies="szip.lib zlib.lib hdf5.lib hdf5_fortran.lib"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\SRC\de47_NWT.f"/>
+		<File RelativePath=".\SRC\gsol7.f"/>
+		<File RelativePath=".\SRC\gwf2bas7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2bcf7.f"/>
+		<File RelativePath=".\SRC\gwf2chd7.f"/>
+		<File RelativePath=".\SRC\gwf2drn7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2drt7.f"/>
+		<File RelativePath=".\SRC\gwf2ets7.f"/>
+		<File RelativePath=".\SRC\gwf2evt7.f"/>
+		<File RelativePath=".\SRC\gwf2fhb7.f"/>
+		<File RelativePath=".\SRC\gwf2gag7.f"/>
+		<File RelativePath=".\SRC\gwf2ghb7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2hfb7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2huf7.f"/>
+		<File RelativePath=".\SRC\gwf2hydmod7.f"/>
+		<File RelativePath=".\SRC\gwf2ibs7.f"/>
+		<File RelativePath=".\SRC\gwf2lak7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2lpf7.f"/>
+		<File RelativePath=".\SRC\gwf2mnw17_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2mnw27_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2mnw2i7.f"/>
+		<File RelativePath=".\SRC\gwf2rch7.f"/>
+		<File RelativePath=".\SRC\gwf2res7.f"/>
+		<File RelativePath=".\SRC\GWF2RIP3_webdnld.f"/>
+		<File RelativePath=".\SRC\gwf2riv7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2sfr7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2str7.f"/>
+		<File RelativePath=".\SRC\gwf2sub7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2swi27_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2swr7_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2swt7.f"/>
+		<File RelativePath=".\SRC\gwf2upw1.f"/>
+		<File RelativePath=".\SRC\gwf2uzf1_NWT.f"/>
+		<File RelativePath=".\SRC\gwf2wel7_NWT.f"/>
+		<File RelativePath=".\SRC\gwfsfrmodule_NWT.f"/>
+		<File RelativePath=".\SRC\gwfuzfmodule_NWT.f"/>
+		<File RelativePath=".\SRC\hufutl7.f"/>
+		<File RelativePath=".\SRC\lmt7_NWT.f"/>
+		<File RelativePath=".\SRC\mach_mod.f90"/>
+		<File RelativePath=".\SRC\MF_HDF1.f90"/>
+		<File RelativePath=".\SRC\MF_NWT.f"/>
+		<File RelativePath=".\SRC\mhc7.f"/>
+		<File RelativePath=".\SRC\modules.f90"/>
+		<File RelativePath=".\SRC\nogmg.f"/>
+		<File RelativePath=".\SRC\NWT1_gmres.f90"/>
+		<File RelativePath=".\SRC\NWT1_ilupc_mod.f90"/>
+		<File RelativePath=".\SRC\NWT1_module.f"/>
+		<File RelativePath=".\SRC\NWT1_solver.f"/>
+		<File RelativePath=".\SRC\NWT1_xmd.f"/>
+		<File RelativePath=".\SRC\NWT1_xmdlib.f"/>
+		<File RelativePath=".\SRC\obs2bas7.f"/>
+		<File RelativePath=".\SRC\obs2chd7.f"/>
+		<File RelativePath=".\SRC\obs2drn7.f"/>
+		<File RelativePath=".\SRC\obs2ghb7.f"/>
+		<File RelativePath=".\SRC\obs2riv7.f"/>
+		<File RelativePath=".\SRC\obs2str7.f"/>
+		<File RelativePath=".\SRC\parutl7.f"/>
+		<File RelativePath=".\SRC\pcg7_NWT.f"/>
+		<File RelativePath=".\SRC\sip7_NWT.f"/>
+		<File RelativePath=".\SRC\utl7.f"/></Filter></Files>
+	<Globals/></VisualStudioProject>
