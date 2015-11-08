@@ -59,6 +59,7 @@ dlldata.c
 *.scc
 *.mod
 *.manifest
+*.exe.intermediate.manifest
 
 # Chutzpah Test files
 _Chutzpah*
